@@ -1,0 +1,86 @@
+body{
+ 
+ margin: 0 0 0 0;
+ background-image: url("img/word.jpeg");
+ 
+}
+.cont{
+  
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  animation: text 2s 1  ;
+ 
+}
+
+@keyframes text{
+  0%{transform: translateY(0) ;}
+ 100%{transform: translateY(60px);}
+}
+
+.start{
+  cursor: pointer;
+  font-family: 'Grenze Gotisch', cursive;
+
+
+}
+.start:hover{
+
+  color: brown;
+  
+  }
+
+  .container-flex{
+    background-image: url(img/word.png);
+ 
+ padding-top: 2rem;
+  }
+
+.container{
+background-color: burlywood;
+text-align: center;
+width: 25rem;
+height: 20rem;
+
+}
+
+
+@media screen and (min-width: 460px){
+  .container{
+    max-width: 20rem;
+  }
+}
+.game{
+font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+
+
+.hidden{
+  display: none;
+}
+.game{
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.panda{
+  width: 7rem;
+  animation: ber 12s infinite both;
+}
+
+@keyframes ber{
+  0%{transform: translateX(-100px);}
+  100%{transform: translateX(1500px);}
+}
+
+.btn{
+  animation:butt 1s 1 ;
+  
+}
+@keyframes butt{
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(360deg);}
+}
