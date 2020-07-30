@@ -53,7 +53,7 @@ btn.addEventListener("click",function(){
     if(play){
         var answer=guess.value;
 
-       if (answer===newWords)
+       if (answer.toLowerCase().trim()===newWords.toLowerCase())
        {
 
         game.innerHTML="correct";
