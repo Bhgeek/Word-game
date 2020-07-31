@@ -56,7 +56,7 @@ btn.addEventListener("click",function(){
        if (answer.toLowerCase().trim()===newWords.toLowerCase())
        {
 
-        game.innerHTML="correct";
+        game.innerHTML="Correct";
         btn.innerHTML="Refresh to play again";
         btn.style.color=" green";
 
