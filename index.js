@@ -11,7 +11,7 @@ var newRandomwords=""; //this is the final words
 // for h3 part
 var game=document.querySelector(".game");
 // storing different words in array//
-var createWords=["CORONA","PANDA","MOMO","JAVASCRIPT","VODKA","INDIA","LOTUS","CARTOON","KABIR SINGH","PUBG","MACHINE","ENGINEERING","COMPUTER","SMOKER","VECTOR","PYTHON","GOOGLE","MICROSOFT","OIL-INDIA","NETFLIX","QUARINTINE","ELON","INTELLIGENCE","PRODIGY","DATA","MASK","SANITIZE","CHICKEN","ICECREAM","AMAZON","ASSAM","NEMESIS","DESTINATION","PERFECT","HTML","FLOOD","BOLLYWOOD","CODE","SUNRISE","CLASSMATE","BLOOD","MAHATMA","ANONYMOUS"];
+var createWords=["CORONA","PANDA","MOMO","JAVASCRIPT","VODKA","INDIA","LOTUS","CARTOON","KABIR SINGH","PUBG","MACHINE","ENGINEERING","COMPUTER","SMOKER","VECTOR","PYTHON","GOOGLE","MICROSOFT","OIL-INDIA","NETFLIX","QUARANTINE","ELON","INTELLIGENCE","PRODIGY","DATA","MASK","SANITIZE","CHICKEN","ICECREAM","AMAZON","ASSAM","NEMESIS","DESTINATION","PERFECT","HTML","FLOOD","BOLLYWOOD","CODE","SUNRISE","CLASSMATE","BLOOD","MAHATMA","ANONYMOUS"];
 // creating a function for get random words from our array
 //var scrmbword=randomWords.split("");
 var randomNum=Math.floor(Math.random()*createWords.length);
